@@ -3,19 +3,60 @@ body {
     margin: 0;
 }
 
-.background {
+.hero, .layer {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(329deg, rgba(241,13,13,1) 0%, rgba(5,134,244,1) 100%);
+ 
 }
 
 .hero {
-    height: 90vh;
-    width: 100%;
-    padding-top: 5vh;
+    background-image: url("c.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-img {
-    width: 80%;
-    height: 90vh;
+.layer {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.container {
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 500px !important;
+    position: absolute;
+    left: 50px;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Mono', monospace;
+    color: #4285F4;
+}
+
+.text {
+    color: #fff;
+    width: 500px;
+    padding-top: 15px;
+}
+
+.btn {
+    color: #4285F4 !important;
+    border-color: #4285F4 !important;
+}
+
+.btn:hover {
+    background-color: #4285F4 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.zmdi {
+    color: #fff !important;
+    padding: 20px;
 }
