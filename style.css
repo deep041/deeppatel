@@ -16,7 +16,7 @@ body {
 }
 
 .layer {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
 }
 
 .img {
-    background-image: url(./c.jpg);
+    background-image: url(./a.jpg);
     width: 100px;
     height: 100px;
     background-position: center;
@@ -97,6 +97,16 @@ body {
 .ml2 .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 15px;
 }
 
 @media only screen and (max-width: 600px) {
